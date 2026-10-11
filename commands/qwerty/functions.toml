@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+description = "Show every SpinDoctor function as a table (optional: commands|gates|tools|presets|all, then a filter)"
+prompt = """
+Call the spindoctor_functions tool (section and filter from: {{args}}; default section commands) and show the returned Markdown table (Function | What it does | Command to type) verbatim.
+"""

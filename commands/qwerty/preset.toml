@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+description = "Run a SpinDoctor preset (qc-001..qc-241), optionally with name=value overrides"
+prompt = """
+Use the spindoctor_run_preset tool to run SpinDoctor preset {{args}} (first word = preset id, the rest = name=value overrides). Summarise each step and the report paths. Say it is a classical simulation.
+"""

@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+description = "Run every command file in a folder with q.folder (top level, up to 128 files)"
+prompt = """
+Use the spindoctor_run_script tool with the script: q.folder run path="{{args}}"
+Then summarise which files ran, which were skipped and why, any failure, and the report paths.
+"""
