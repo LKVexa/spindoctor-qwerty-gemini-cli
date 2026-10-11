@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+description = "Run SpinDoctor q.* commands (one per line) with the bundled classical simulator"
+prompt = """
+Use the spindoctor_run_script tool to run these SpinDoctor q.* commands (one per line). Then summarise the results, exact probabilities next to sampled counts, and the report paths. Say it is a classical simulation.
+
+{{args}}
+"""

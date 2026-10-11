@@ -1,0 +1,16 @@
+{
+  "name": "spindoctor-qwerty",
+  "version": "1.1.0",
+  "description": "SpinDoctor 3.1.2 quantum-circuit SIMULATOR: q.* scripts (1-298 logical qubits), 241 presets, q.folder, theory testing from files or the chat, TXT/PDF/JSON/CSV reports. Bundled stdlib-only Python engine; classical FP64 simulation, not a quantum computer. GPL-3.0-or-later.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "spindoctor-qwerty": {
+      "command": "node",
+      "args": [
+        "${extensionPath}${/}skills${/}spindoctor-qwerty${/}scripts${/}launch_mcp.js"
+      ],
+      "cwd": "${workspacePath}",
+      "timeout": 600000
+    }
+  }
+}

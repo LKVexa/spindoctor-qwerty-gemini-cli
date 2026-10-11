@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+description = "Test a theory with the SpinDoctor simulator (a file, pasted text, or the theory we discussed)"
+prompt = """
+Test this theory with the spindoctor_test_theory tool: {{args}}
+A file path -> source=file (action=extract first). If it refers to our conversation -> summarise the claims, assumptions, variables and one measurable prediction from the chat, show that summary and wait for my confirmation, then use source=chat with short verbatim excerpts. Restate the hypothesis, write the q.* script and checks, run with action=run, and report the verdict, the numbers and the TXT/PDF theory report with its limits.
+"""
